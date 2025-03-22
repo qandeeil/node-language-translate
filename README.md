@@ -13,3 +13,55 @@
 npm install node-language-translate
 # or
 yarn add node-language-translate
+
+## 🚀 Usage with ES6 Imports
+
+```typescript
+import { Translator } from 'node-language-translate';
+
+const translator = new Translator();
+
+async function translateText() {
+  try {
+    const translation = await translator.translate('Good morning', 'en', 'es');
+    console.log(translation); // "Buenos días"
+  } catch (error) {
+    console.error('Translation error:', error.message);
+  }
+}
+
+translateText();
+```
+
+## ⚡ TypeScript Usage Example
+
+**Basic translation workflow with error handling:**
+
+```typescript
+import { Translator } from 'node-language-translate';
+
+// Initialize translator with default provider
+const translator = new Translator();
+
+// Example translation function
+async function main() {
+  try {
+    const arabicText = await translator.translate('Hello World', 'en', 'ar');
+    const frenchText = await translator.translate('Good morning', 'en', 'fr');
+    
+    console.log('Arabic:', arabicText); // مرحبًا أيها العالم
+    console.log('French:', frenchText); // Bonjour
+  } catch (error) {
+    console.error('Translation failed:', error.message);
+  }
+}
+
+// Execute translation
+main();
+
+```markdown
+**Key Features Demonstrated:**
+- ✅ Modern async/await syntax
+- ✅ Type safety
+- ✅ Error handling
+- ✅ Multi-language support
