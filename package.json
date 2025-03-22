@@ -1,0 +1,60 @@
+{
+  "name": "node-language-translate",
+  "version": "1.0.6",
+  "main": "./dist/src/Translator.js",
+  "exports": {
+    ".": "./dist/src/Translator.js"
+  },
+  "types": "./dist/src/types/index.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "keywords": [
+    "translation",
+    "translator",
+    "i18n",
+    "localization",
+    "l10n",
+    "multilingual",
+    "nodejs",
+    "typescript",
+    "javascript-library",
+    "free-translation",
+    "open-source-translation",
+    "language-conversion",
+    "text-translation",
+    "internationalization",
+    "cross-language",
+    "language-processing",
+    "rest-api-client",
+    "async-await",
+    "promise-based",
+    "express-middleware",
+    "nestjs-integration",
+    "serverless-translation",
+    "developer-tools",
+    "npm-package",
+    "sdk",
+    "arabic-translation",
+    "english-translation",
+    "multilingual-support"
+  ],
+  "author": "Mahmoud Qandeel",
+  "license": "MIT",
+  "description": "🚀 Next-gen translation engine for Node.js | Free unlimited language conversion | AI-powered context-aware translations | Developer-friendly API | Zero dependencies | Built for modern cloud-native applications | Compatible with Express, NestJS & serverless architectures | Open-source community-driven solution.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qandeeil/node-language-translate"
+  },
+  "homepage": "https://github.com/qandeeil/node-language-translate#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.13.11",
+    "axios": "^1.8.4",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.6",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
