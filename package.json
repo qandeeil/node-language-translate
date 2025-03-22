@@ -1,6 +1,6 @@
 {
   "name": "node-language-translate",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "./dist/src/Translator.js",
   "exports": {
     ".": "./dist/src/Translator.js"
